@@ -1,2 +1,2 @@
 # TofuTD
-Tofu Tower Defence.
+A tower defence game featuring our cat, Tofu.
