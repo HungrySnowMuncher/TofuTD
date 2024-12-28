@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
+  <diagram name="Gameplay Flow" id="xzZfl46ibGklqqmCUhW3">
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mKSp-kjD-UKk3Y8Q-u14-1" value="&lt;div&gt;Pregame&lt;/div&gt;&lt;div&gt;- - - - - - - - - - - - - -&amp;nbsp;&lt;/div&gt;&lt;div&gt;Place the cat and prepare for the game.&lt;br&gt; &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mKSp-kjD-UKk3Y8Q-u14-6" value="&lt;div&gt;Defeat the wave&lt;/div&gt;&lt;div&gt;before the next wave&lt;/div&gt;&lt;div&gt;spawns&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mKSp-kjD-UKk3Y8Q-u14-2" target="mKSp-kjD-UKk3Y8Q-u14-4">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKSp-kjD-UKk3Y8Q-u14-8" value="&lt;div&gt;Lives = 0&lt;/div&gt;&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;Defeat the&lt;/div&gt;&lt;div&gt;final wave&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="mKSp-kjD-UKk3Y8Q-u14-2" target="mKSp-kjD-UKk3Y8Q-u14-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mKSp-kjD-UKk3Y8Q-u14-2" value="&lt;div&gt;Mid-Round&lt;br&gt;&lt;/div&gt;&lt;div&gt;- - - - - - - - - - - - - -&amp;nbsp;&lt;/div&gt;&lt;div&gt;Attempt to defeat the incoming enemies.&lt;br&gt; &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mKSp-kjD-UKk3Y8Q-u14-3" value="&lt;div&gt;Post Game&lt;br&gt;&lt;/div&gt;&lt;div&gt;- - - - - - - - - - - - - -&amp;nbsp;&lt;/div&gt;&lt;div&gt;Exit to the level selection screen.&lt;br&gt; &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mKSp-kjD-UKk3Y8Q-u14-7" value="&lt;div&gt;Next wave timers&lt;/div&gt;&lt;div&gt;reaches 0&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mKSp-kjD-UKk3Y8Q-u14-4" target="mKSp-kjD-UKk3Y8Q-u14-2">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKSp-kjD-UKk3Y8Q-u14-4" value="&lt;div&gt;Post-Round&lt;br&gt;&lt;/div&gt;&lt;div&gt;- - - - - - - - - - - - - -&amp;nbsp;&lt;/div&gt;&lt;div&gt;Prepare for the next wave.&lt;br&gt; &lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mKSp-kjD-UKk3Y8Q-u14-5" value="Click &quot;Start&quot;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="mKSp-kjD-UKk3Y8Q-u14-1" target="mKSp-kjD-UKk3Y8Q-u14-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
